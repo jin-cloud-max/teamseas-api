@@ -8,7 +8,7 @@ async function main() {
   const donator = await prisma.donation.create({
     data: {
       email: 'johndoe@email.com',
-      displaName: 'John',
+      displayName: 'John',
       count: 5,
     },
   });
